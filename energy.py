@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 # Load dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("HVAC_Dynamic_Fuzzy_PID_2017_with_Target.csv")
+    df = pd.read_csv(r"C:\Users\Administrator\Desktop\class work\HVAC_Dynamic_Fuzzy_PID_2017_with_Target.csv")
     df.dropna(inplace=True)
     return df
 
